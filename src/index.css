@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active {
+  color: #ed165f;
+  border-bottom: 1px solid #ed165f;
+}
+
+.dashboardLink.active {
+  background-color: #ed165f;
+  color: white;
+}
+.swiper-pagination-bullet-active {
+  background-color: #38a169;
+}
+
+/* Inactive pagination circles */
+.swiper-pagination-bullet {
+  background-color: white;
+  width: 12px;
+  height: 12px;
+  margin: 0 4px;
+}
+
+.sliderBg {
+  background-image: url("./images/Logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center, center;
+}
+
+.icons.active {
+  border: 0;
+}
